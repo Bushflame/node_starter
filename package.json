@@ -1,0 +1,24 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylus": "stylus -w stylus/** -c -o public/css/",
+    "start": "nodemon index.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3",
+    "nodemon": "^3.0.3",
+    "pug": "^3.0.2",
+    "stylus": "^0.62.0",
+    "stylus-loader": "^8.1.0"
+  }
+}
